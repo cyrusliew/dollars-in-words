@@ -4,7 +4,7 @@ test('Cent', () => {
     expect(youSayDollarISayWords(0.03)).toBe('three cents');
 });
 
-test('two digits cents below 0.2', () => {
+test('Two digits cents below 0.2', () => {
     expect(youSayDollarISayWords(0.13)).toBe('thirteen cents');
 });
 
