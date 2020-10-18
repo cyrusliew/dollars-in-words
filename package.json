@@ -1,0 +1,19 @@
+{
+  "name": "dollar-in-words",
+  "version": "1.0.0",
+  "description": "A magically useful app to turn your number into words, MAGIC!",
+  "main": "index.js",
+  "author": "Cyrus Liew",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "number-to-words": "^1.2.4"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "nodemon": "^2.0.5"
+  }
+}
