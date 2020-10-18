@@ -35,7 +35,6 @@ function youSayDollarISayWords(amount) {
         string += ' cents';
     }
     
-    // console.log(string.replace('-', ' '));
     return string.replace(/-/g, ' ');
 }
 
